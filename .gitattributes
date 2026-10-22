@@ -5,3 +5,9 @@
 *.slx binary
 *.mat binary
 *.png binary
+*.woff2 binary
+*.py text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+docs/demo.html linguist-generated=true
+docs/index.html linguist-generated=true

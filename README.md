@@ -50,7 +50,7 @@ Acceptance assertions execute against the **actual Simulink solver**, not only a
 
 [Open the offline playback demo](docs/demo.html) to replay position, velocity, sequence and alarms without MATLAB. It displays recorded simulation traces and does not run a new simulation.
 
-The measured nominal cycle takes **8.38 s**. With 50% extra mass and a temporary 5 N disturbance, it takes **10.19 s**, including a later station acknowledgment at 7 s. This is not a pure controller-speed comparison because the acknowledgment timing also changes. Maximum loaded travel is 0.6604 m for a 0.65 m target. All 11 acceptance scenarios and seven unit tests passed locally on R2026a Update 5. GitHub Actions is configured but has not been run on a hosted repository.
+The measured nominal cycle takes **8.38 s**. With 50% extra mass and a temporary 5 N disturbance, it takes **10.19 s**, including a later station acknowledgment at 7 s. This is not a pure controller-speed comparison because the acknowledgment timing also changes. Maximum loaded travel is 0.6604 m for a 0.65 m target. All 11 acceptance scenarios and seven unit tests passed locally on R2026a Update 5 and also [passed in GitHub Actions](https://github.com/alejandropedersen123-collab/servo-cell-simulink/actions/runs/39823711569).
 
 After regenerating results, `python tools/build_demo.py` rebuilds the standalone viewer using Python 3 and its standard library. This optional step does not require MATLAB or external web assets.
 

@@ -4,6 +4,12 @@ A simulated transfer axis for an automated production cell: index a part to a wo
 
 **Simulink project · MIT source code · SI-unit physical model · source-rebuildable `.slx` model.**
 
+[**Open the interactive demo →**](https://alejandropedersen123-collab.github.io/servo-cell-simulink/)
+
+![Interactive demo preview](docs/preview.png)
+
+The presentation uses the owner's selected visual system with a locally bundled Inter font. See [visual tokens and font attribution](docs/design-system.md).
+
 ![Commissioning results](results/commissioning.png)
 
 ## Engineering scope

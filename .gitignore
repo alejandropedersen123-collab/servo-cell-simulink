@@ -7,3 +7,6 @@ slprj/
 *.log
 results/debug_*
 .DS_Store
+__pycache__/
+*.py[cod]
+test-results/

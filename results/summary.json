@@ -1,0 +1,115 @@
+{
+  "matlabVersion": "26.1.0.3346908 (R2026a) Update 5",
+  "results": [
+    {
+      "scenario": "nominal",
+      "passed": true,
+      "cycles": 1,
+      "maxPosition": 0.65205184654926229,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 0,
+      "cycleTime": 8.38,
+      "stopDistance": null
+    },
+    {
+      "scenario": "payload_disturbance",
+      "passed": true,
+      "cycles": 1,
+      "maxPosition": 0.66037228280878957,
+      "maxForce": 13.99342190460958,
+      "finalAlarm": 0,
+      "cycleTime": 10.19,
+      "stopDistance": null
+    },
+    {
+      "scenario": "emergency_stop",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.25049134276267465,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 0,
+      "cycleTime": null,
+      "stopDistance": 0.014178227906295443
+    },
+    {
+      "scenario": "encoder_fault",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.25049134276267465,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 2,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "missing_part",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0,
+      "maxForce": 0,
+      "finalAlarm": 0,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "process_timeout",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.65205485207276337,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 5,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "stale_ack",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.65205485207276337,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 5,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "held_start",
+      "passed": true,
+      "cycles": 1,
+      "maxPosition": 0.65205184654926229,
+      "maxForce": 10.543772307897505,
+      "finalAlarm": 0,
+      "cycleTime": 8.38,
+      "stopDistance": null
+    },
+    {
+      "scenario": "travel_limit",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.75,
+      "maxForce": 0,
+      "finalAlarm": 3,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "weak_actuator",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.57050688777828074,
+      "maxForce": 2,
+      "finalAlarm": 4,
+      "cycleTime": null,
+      "stopDistance": null
+    },
+    {
+      "scenario": "manual_jog",
+      "passed": true,
+      "cycles": 0,
+      "maxPosition": 0.067929044928285512,
+      "maxForce": 7.1571409030160584,
+      "finalAlarm": 0,
+      "cycleTime": null,
+      "stopDistance": null
+    }
+  ]
+}

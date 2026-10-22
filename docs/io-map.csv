@@ -1,0 +1,18 @@
+Index,Tag,Direction,Type,Unit,Meaning
+1,CellEnable,Input,BOOL,none,Permits controller operation
+2,CycleStart,Input,BOOL,none,Rising edge requests one cycle
+3,PartPresent,Input,BOOL,none,Part detected at home station
+4,ProcessAck,Input,BOOL,none,Work station reports operation complete
+5,EmergencyRequest,Input,BOOL,none,Simulated emergency request
+6,FaultReset,Input,BOOL,none,Rising edge while disabled clears recovered fault
+7,EncoderQualityOK,Input,BOOL,none,Feedback quality status
+8,ExternalLoad,Simulation input,REAL,N,Applied disturbance force
+9,ManualMode,Input,BOOL,none,Jog mode from idle
+10,JogVelocity,Input,REAL,m/s,Limited manual velocity request
+,AxisPosition,Feedback,REAL,m,Sampled encoder position
+,AxisVelocity,Feedback,REAL,m/s,Sampled encoder velocity
+,MotorForceCommand,Output,REAL,N,Saturated motor command
+,BrakeRequest,Output,BOOL,none,Modeled passive brake
+,SequenceState,Output,UINT,none,State code 0 to 6
+,FirstOutAlarm,Output,UINT,none,Latched alarm code
+,CompletedCycles,Output,UINT,count,Completed transfer and return cycles

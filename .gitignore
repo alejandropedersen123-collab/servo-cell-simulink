@@ -1,0 +1,9 @@
+data/raw/
+slprj/
+*.slxc
+*.asv
+*.slx.autosave
+*.slx.r20*
+*.log
+results/debug_*
+.DS_Store

@@ -1,0 +1,8 @@
+Test,Passed,Failed,DurationSeconds
+test_controller/testNoPartNoCycle,1,0,0.0318182
+test_controller/testEmergencyWinsAndLatches,1,0,0.0070904
+test_controller/testInvalidFeedbackCannotPropagate,1,0,0.0268509
+test_controller/testForceAndAccelerationLimits,1,0,0.0925885
+test_controller/testMovementTimeout,1,0,0.016665
+test_controller/testCompletionRequiresLowVelocity,1,0,0.0084881
+test_controller/testStaleAcknowledgmentRejected,1,0,0.0058105
